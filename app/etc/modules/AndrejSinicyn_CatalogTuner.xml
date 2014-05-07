@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <AndrejSinicyn_CatalogTuner>
+      <active>true</active>
+      <codePool>community</codePool>
+      <version>1.0.0</version>
+    </AndrejSinicyn_CatalogTuner>
+  </modules>
+</config>
