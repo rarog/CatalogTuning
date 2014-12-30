@@ -2,7 +2,7 @@
 <config>
   <modules>
     <AndrejSinicyn_CatalogTuner>
-      <version>1.0.0</version>
+      <version>1.0.1</version>
     </AndrejSinicyn_CatalogTuner>
   </modules>
   <global>

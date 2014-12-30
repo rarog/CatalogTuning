@@ -1,16 +1,27 @@
 <_>
-   <form_key>o5kTdvDaX7Lei2Zj</form_key>
+   <form_key>iR8ANiR7xWPzp5CX</form_key>
+   <_create/>
    <name>AndrejSinicyn_CatalogTuner</name>
    <channel>community</channel>
    <version_ids>
       <version_ids>2</version_ids>
       <version_ids>1</version_ids>
    </version_ids>
-   <summary>Catalog tuning</summary>
-   <description>Catalog tuning</description>
+   <summary>Allows tuning of catalog options. Currently breadcrumb tuning is implemented.</summary>
+   <description>The extension is designed to offer different options for tuning of Magento&apos;s standard catalog behavior.
+Currently it only offers extension of breadcrumb generation if customer is visiting a canonical URL of a product. If enabled, the breadcrumbs are generated to show the first associated category of the product in the breadcrumb path.&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;v1.0.1&lt;/b&gt;&lt;br /&gt;
+- Fixed translation path.&lt;br /&gt;
+&lt;br /&gt;
+&lt;b&gt;v1.0.0&lt;/b&gt;&lt;br /&gt;
+- Option to enforce adding catalog breadcrumb to products if they were called directly.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+For sources, bug reports, feature requests please visit the project homepage at &lt;a href=&quot;https://github.com/rarog/CatalogTuning&quot;&gt;https://github.com/rarog/CatalogTuning&lt;/a&gt;</description>
    <license>OSL v3.0</license>
    <license_uri>http://opensource.org/licenses/osl-3.0.php</license_uri>
-   <version>1.0.0</version>
+   <version>1.0.1</version>
    <stability>stable</stability>
    <notes>Catalog tuning</notes>
    <authors>
@@ -41,7 +52,7 @@
             <max/>
          </max>
          <files>
-            <files>    </files>
+            <files>                        </files>
          </files>
       </package>
       <extension>
@@ -68,7 +79,7 @@
          <path/>
          <path>AndrejSinicyn/CatalogTuner</path>
          <path>de_DE/AndrejSinicyn_CatalogTuner.csv</path>
-         <path>en_EN/AndrejSinicyn_CatalogTuner.csv</path>
+         <path>en_US/AndrejSinicyn_CatalogTuner.csv</path>
          <path>modules/AndrejSinicyn_CatalogTuner.xml</path>
       </path>
       <type>
@@ -93,8 +104,4 @@
          <ignore/>
       </ignore>
    </contents>
-   <page>1</page>
-   <limit>200</limit>
-   <folder/>
-   <package/>
 </_>
