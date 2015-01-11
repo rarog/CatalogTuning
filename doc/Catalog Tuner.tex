@@ -1,53 +1,15 @@
+% Copyright (c) 2015 Andrej Sinicyn
 \date{\today}
 \author{Andrej Sinicyn}
 \title{RarogIT - Catalog Tuner}
 \def\pdfsubject{Catalog Tuner for Magento}
 \def\pdfkeywords{Catalog Tuner;Magento}
-\documentclass[12pt]{report}
-\usepackage[utf8]{inputenc}
-\usepackage[german,english]{babel}
-\usepackage{graphicx}
-\usepackage{float}	
-\usepackage{color}
-\usepackage{geometry}
-\makeatletter
-\usepackage[pdftex,
-            pdfauthor={\@author},
-            pdftitle={\@title},
-            pdfsubject={\pdfsubject},
-            pdfkeywords={\pdfkeywords},
-            pdfborder={0 0 0}]{hyperref}
-\makeatother
-\usepackage{titlesec}
-\usepackage{fancyhdr}
-\usepackage{eso-pic}
-\titleformat{\chapter}[block]
-            {\bfseries\Large}
-            {\thechapter}
-            {20pt}
-            {\vspace{0pt}}
-\geometry{a4paper,left=20mm,right=20mm,top=20mm,bottom=20mm}
-\definecolor{rit-blue}{RGB}{51,153,204}
-\pagestyle{fancy}
-\fancyhf{}
-\fancypagestyle{plain}{}
-\fancyhead[R]{\includegraphics[height=10mm]{../media/logo/rarog-it-logo.png}}
-\begin{document}\selectlanguage{english}
-\begin{titlepage}
-\begin{center}
-\includegraphics[width=1\textwidth]{../media/box/cataolg-tuner-box.png}\\
-\iflanguage{english}{Last updated:}{\ignorespaces}
-\iflanguage{german}{Zuletzt aktualisiert:}{\ignorespaces}
-\today
-\end{center}
-\end{titlepage}
-\AddToShipoutPicture{\AtPageUpperLeft{\rotatebox{0}{\colorbox{rit-blue}{
- \begin{minipage}{\paperheight}%
-  \hspace*{\stretch{1}}
-  \vbox to 106pt {}
- \end{minipage}
-}}}}
-\tableofcontents
+\def\logopath{../media/logo/rarog-it-logo.png}
+\def\bigtitleimage{../media/box/cataolg-tuner-box.png}
+\include{./template/rit-doc-template-head}
+\begin{document}
+\selectlanguage{english}
+\include{./template/rit-doc-template-first-pages}
 \chapter{\iflanguage{english}{About this module}{\ignorespaces}
          \iflanguage{german}{Über das Modul}{\ignorespaces}}
 Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\\
