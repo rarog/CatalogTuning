@@ -1,3 +1,6 @@
+\date{\today}
+\author{Andrej Sinicyn}
+\title{RarogIT - Catalog Tuner}
 \documentclass[12pt]{report}
 \usepackage[utf8]{inputenc}
 \usepackage[german,english]{babel}
@@ -5,12 +8,14 @@
 \usepackage{float}	
 \usepackage{color}
 \usepackage{geometry}
+\makeatletter
 \usepackage[pdftex,
-            pdfauthor={Andrej Sinicyn},
-            pdftitle={RarogIT - Catalog Tuner},
+            pdfauthor={\@author},
+            pdftitle={\@title},
             pdfsubject={Catalog Tuner for Magento},
             pdfkeywords={Catalog Tuner;Magento},
             pdfborder={0 0 0}]{hyperref}
+\makeatother
 \usepackage{titlesec}
 \usepackage{fancyhdr}
 \usepackage{eso-pic}
@@ -19,9 +24,6 @@
             {\thechapter}
             {20pt}
             {\vspace{0pt}}
-\date{\today}
-\author{Andrej Sinicyn}
-\title{RarogIT - Catalog Tuner}
 \geometry{a4paper,left=20mm,right=20mm,top=20mm,bottom=20mm}
 \definecolor{rit-blue}{RGB}{51,153,204}
 \pagestyle{fancy}
